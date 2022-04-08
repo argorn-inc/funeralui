@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+
+body{
+    /* overflow: none; */
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.main-container{
+    height:100vh;
+    /* background-image: url("../images/bg.jpg") no-repeat; */
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+
+.left{
+    background-image: url("../images/plainbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.left-dash{
+    padding-top: 3%;
+    
+}
+
+.right {
+    padding: 18% 10% 1% 10%;
+
+}
+
+.dash-right{
+    padding: 10% 8% 1% 8%;
+}
+
+#submit{
+    padding: 1%;
+    max-width: 35ch;
+    min-width: 80px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+}
+
+.input-group-text{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.h1{
+    margin-bottom: 5vh;
+    /* color: re; */
+}
+
+.dash-data{
+    color: rebeccapurple;
+}
